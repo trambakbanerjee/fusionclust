@@ -7,6 +7,19 @@ fusionclust
 
 The goal of fusionclust is to conduct clustering and feature screening in large scale cluster analysis problems.
 
+Installation
+-------
+
+You can
+
+1. Install the release version of `fusionclust` from CRAN: `install.packages("fusionclust")`.
+
+2. Install the development version of `fusionclust`.
+
+   ```R
+   devtools::install_github("trambakbanerjee/fusionclust")
+   ```
+
 Example
 -------
 
