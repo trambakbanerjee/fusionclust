@@ -6,7 +6,7 @@
 #' @importFrom stats rnorm
 #'
 #' @param bmt_output output from the \code{\link{bmt}} run
-#' @param prob_threshold probability thredhold. Default is 0.5. Do not change it unless
+#' @param prob_threshold probability threshold. Default is 0.5. Do not change it unless
 #'    you know what you are doing. See the referenced paper
 #'
 #' @return The number of clusters
@@ -20,11 +20,11 @@
 #' @seealso \code{\link{bmt}}
 #'
 #' @examples
-#' \donttest{
-#' x<- c(rnorm(500,-2,1), rnorm(500,2,1))
+#' library(fusionclust)
+#' set.seed(42)
+#' x<- c(rnorm(1000,-2,1), rnorm(1000,2,1))
 #' out<- bmt(x)
 #' k<- nclust(out)
-#' }
 #'
 #' @references
 #' \enumerate{

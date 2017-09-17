@@ -28,10 +28,10 @@
 #' @seealso \code{\link{nclust}}
 #'
 #' @examples
-#' \donttest{
-#' x<- c(rnorm(500,-2,1), rnorm(500,2,1))
+#' library(fusionclust)
+#' set.seed(42)
+#' x<- c(rnorm(1000,-2,1), rnorm(1000,2,1))
 #' out<- bmt(x)
-#' }
 #'
 #' @references
 #' \enumerate{
