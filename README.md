@@ -6,7 +6,7 @@ fusionclust
 [![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/fusionclust)](http://www.r-pkg.org/pkg/fusionclust)
 
 
-The goal of fusionclust is to conduct clustering and feature screening in large scale cluster analysis problems.
+The goal of `fusionclust` is to conduct clustering and feature screening in large scale cluster analysis problems.
 
 Installation
 -----------
