@@ -34,10 +34,10 @@ solves a convex relaxation of the univariate clustering criterion given by equat
      \eqn{\lambda} values. See algorithm 1 in the referenced paper for more details.
 }
 \examples{
-\donttest{
-x<- c(rnorm(500,-2,1), rnorm(500,2,1))
+library(fusionclust)
+set.seed(42)
+x<- c(rnorm(1000,-2,1), rnorm(1000,2,1))
 out<- bmt(x)
-}
 
 }
 \references{

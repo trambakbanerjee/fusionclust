@@ -31,10 +31,14 @@ Converts the problem of screening out features with lower scores into a
     reference [2] to determine the signal features.
 }
 \examples{
-\dontrun{
-x<-rbeta(1000,0.5,5)
-s<-cosci_is_select(x,0.9)
-}
+library(fusionclust)
+set.seed(42)
+noise<-matrix(rnorm(49000),nrow=1000,ncol=49)
+set.seed(42)
+signal<-c(rnorm(500,-1.5,1),rnorm(500,1.5,1))
+x<-cbind(signal,noise)
+scores<- cosci_is(x,0)
+features<-cosci_is_select(scores,0.9)
 
 }
 \references{

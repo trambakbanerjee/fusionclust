@@ -25,10 +25,13 @@ Uses the univariate merging algorithm \code{\link{bmt}} and produces a score
     for each feature that reflects its relative importance for clustering.
 }
 \examples{
-\donttest{
-x<-matrix(rnorm(10000),nrow=500,ncol=20)
-s<- cosci_is(x,0)
-}
+library(fusionclust)
+set.seed(42)
+noise<-matrix(rnorm(49000),nrow=1000,ncol=49)
+set.seed(42)
+signal<-c(rnorm(500,-1.5,1),rnorm(500,1.5,1))
+x<-cbind(signal,noise)
+scores<- cosci_is(x,0)
 
 }
 \references{
