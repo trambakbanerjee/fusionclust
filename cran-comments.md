@@ -1,5 +1,14 @@
+## Re-submission
+This is a resubmission. In this version I have:
+
+*corrected the invalid URL in the DESCRIPTION file
+
+*modified the package description in the DESCRIPTION file
+
+*provided toy examples outside of \donttest{} and \dontrun{}
+
 ## Test environments
-* ubuntu 16.04 (on travis-ci), R 3.4.1
+* ubuntu 12.04 (on travis-ci), R 3.4.1
 * win-builder (devel and release)
 
 ## R CMD check results
