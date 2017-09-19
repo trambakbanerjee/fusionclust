@@ -10,7 +10,7 @@ Installation
 -----------
 You can:
 
-1. install the release version of `fusionclust` from CRAN with `install.packages("fusionclust")`.
+1. install the release version of `fusionclust` from [CRAN](https://CRAN.R-project.org/package=fusionclust) with `install.packages("fusionclust")`.
 
 2. install the development version of `fusionclust`
 
