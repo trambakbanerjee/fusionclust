@@ -6,7 +6,7 @@ fusionclust
 
 The goal of `fusionclust` is to conduct clustering and feature screening in large scale cluster analysis problems. In particular, `fusionclust` provides the Big Merge Tracker (BMT) and COSCI algorithms for convex clustering and feature screening using an ℓ1 fusion penalty.  
 
-BMT is a computationally efficient path algorithm that relies on a convex relaxation of the k-means clustering criterion and is useful for determining the number of clusters / modes in an univariate problem. COSCI (COnvex Screening for Cluster Information), on the other hand, is a non-parametric method for ranking and screening non-informative features in large scale cluster analysis problems and enjoys a perfect screening property in the sense that under mild regularity conditions on the densities of the features, COSCI screens out all the non-informative features with high probability. 
+BMT is a computationally efficient path algorithm that relies on a convex relaxation of the k-means clustering criterion and is potent at determining the number of clusters / modes in an univariate problem. COSCI (COnvex Screening for Cluster Information), on the other hand, is a non-parametric method for ranking and screening non-informative features in large scale cluster analysis problems and enjoys a perfect screening property in the sense that under mild regularity conditions on the densities of the features, COSCI screens out all the non-informative features with high probability. 
 
 See the two references for more details around these algorithms.
 
