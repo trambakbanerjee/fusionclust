@@ -3,6 +3,7 @@ fusionclust
 ===========
 [![Build Status](https://travis-ci.org/trambakbanerjee/fusionclust.svg?branch=master)](https://travis-ci.org/trambakbanerjee/fusionclust)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/fusionclust)](https://cran.r-project.org/package=fusionclust)
+![](http://cranlogs.r-pkg.org/badges/fusionclust)
 
 The goal of `fusionclust` is to conduct clustering and feature screening in large scale cluster analysis problems. In particular, `fusionclust` provides the Big Merge Tracker (BMT) and COSCI algorithms for convex clustering and feature screening using an ℓ1 fusion penalty.  
 
