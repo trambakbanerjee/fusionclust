@@ -23,7 +23,7 @@ You can:
    devtools::install_github("trambakbanerjee/fusionclust")
    ```
 
-Example
+Usage
 -------
 
 Check out the included vignette [`demo-fusionclust`](https://cran.r-project.org/web/packages/fusionclust/vignettes/demo-fusionclust.html) for illustrative examples.
