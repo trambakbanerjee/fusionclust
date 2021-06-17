@@ -31,7 +31,7 @@ Check out the included vignette [`demo-fusionclust`](https://cran.r-project.org/
 References
 --------
 [1.] [Feature Screening in Large Scale Cluster Analysis](http://www.sciencedirect.com/science/article/pii/S0047259X17300271)    
-Banerjee, T., Mukherjee, G. and Radchenko P.  *Journal of Multivariate Analysis, Volume 161, 2017, Pages 191-212
+Banerjee, T., Mukherjee, G. and Radchenko P.  *Journal of Multivariate Analysis, Volume 161, 2017, Pages 191-212*
 
 [2.] [Convex clustering via ℓ1 fusion penalization](http://onlinelibrary.wiley.com/doi/10.1111/rssb.12226/abstract)   
 Radchenko P., Mukherjee G.   *J. R. Stat. Soc. Ser. B Stat. Methodol. (2017)*
